@@ -1,6 +1,6 @@
 # Copyright (C) 2021 Catuserbot <https://github.com/sandy1709/catuserbot>
 # Ported by @mrismanaziz
-# FROM Man-Userbot <https://github.com/mrismanaziz/Man-Userbot>
+# FROM SandBot <https://github.com/mrismanaziz/SandBot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 
 import asyncio

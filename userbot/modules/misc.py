@@ -6,7 +6,7 @@
 # You can find misc modules, which dont fit in anything xD
 #
 # Recode by @mrismanaziz
-# FROM Man-Userbot <https://github.com/mrismanaziz/Man-Userbot>
+# FROM SandBot <https://github.com/mrismanaziz/SandBot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 #
 
@@ -66,9 +66,9 @@ async def shutdown_bot(event):
         await event.client.send_message(
             BOTLOG_CHATID,
             "**#SHUTDOWN** \n"
-            "**Man-Userbot** telah di matikan!\nJika ingin menghidupkan kembali silahkan buka heroku",
+            "**SandBot** telah di matikan!\nJika ingin menghidupkan kembali silahkan buka heroku",
         )
-    await edit_or_reply(event, "**Man-Userbot Berhasil di matikan!**")
+    await edit_or_reply(event, "**SandBot Berhasil di matikan!**")
     if HEROKU_APP is not None:
         HEROKU_APP.process_formation()["worker"].scale(0)
     else:
@@ -79,10 +79,10 @@ async def shutdown_bot(event):
 async def restart_bot(event):
     if event.sender_id in SUDO_USERS:
         return
-    await edit_or_reply(event, "**Man-Userbot Berhasil di Restart**")
+    await edit_or_reply(event, "**SandBot Berhasil di Restart**")
     if BOTLOG_CHATID:
         await event.client.send_message(
-            BOTLOG_CHATID, "#RESTART \n" "**Man-Userbot Berhasil Di Restart**"
+            BOTLOG_CHATID, "#RESTART \n" "**SandBot Berhasil Di Restart**"
         )
     args = [sys.executable, "-m", "userbot"]
     execle(sys.executable, *args, environ)
@@ -93,9 +93,9 @@ async def reedme(event):
     await edit_or_reply(
         event,
         "**Berikut sesuatu untuk kamu baca:**\n"
-        "\n✣ [Userbot Repo](https://github.com/mrismanaziz/Man-Userbot/blob/Man-Userbot/README.md)"
+        "\n✣ [Userbot Repo](https://github.com/mrismanaziz/SandBot/blob/SandBot/README.md)"
         "\n✣ [Video Tutorial](https://youtu.be/tTDaPKsGC1I)"
-        "\n✣ [List Variabel Heroku untuk Man-Userbot](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)"
+        "\n✣ [List Variabel Heroku untuk SandBot](https://telegra.ph/List-Variabel-Heroku-untuk-SandBot-09-22)"
         "\n✣ [Setup Guide - Basic](https://mrismanaziz.medium.com/cara-memasang-userbot-telegram-repo-man-userbot-deploy-di-heroku-c56d1f8b5537)"
         "\n✣ [Setup Guide - LastFM Module](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)",
     )
@@ -119,13 +119,13 @@ async def repeat(event):
 async def repo_is_here(event):
     xx = await edit_or_reply(event, "`Processing...`")
     await xx.edit(
-        f"**Hey**, __I am using__ 🔥 **Man-Userbot** 🔥\n\n"
+        f"**Hey**, __I am using__ 🔥 **SandBot** 🔥\n\n"
         f"      __Thanks For Using me__\n\n"
         f"✣ **Userbot Version :** `{BOT_VER}@{branch}`\n"
         f"✣ **Group Support :** [Sharing Userbot](t.me/sharinguserbot)\n"
         f"✣ **Channel Man :** [Lunatic0de](t.me/Lunatic0de)\n"
         f"✣ **Owner Repo :** [Risman](t.me/mrismanaziz)\n"
-        f"✣ **Repo :** [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)\n"
+        f"✣ **Repo :** [SandBot](https://github.com/mrismanaziz/SandBot)\n"
     )
 
 
@@ -299,7 +299,7 @@ CMD_HELP.update(
     {
         "sleep": f"**Plugin : **`sleep`\
         \n\n  •  **Syntax :** `{cmd}sleep`\
-        \n  •  **Function : **Biarkan Man-Userbot tidur selama beberapa detik \
+        \n  •  **Function : **Biarkan SandBot tidur selama beberapa detik \
     "
     }
 )
@@ -307,11 +307,11 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "repo": f"**Plugin : **`Repository Man-Userbot`\
+        "repo": f"**Plugin : **`Repository SandBot`\
         \n\n  •  **Syntax :** `{cmd}repo`\
-        \n  •  **Function : **Menampilan link Repository Man-Userbot\
+        \n  •  **Function : **Menampilan link Repository SandBot\
         \n\n  •  **Syntax :** `{cmd}string`\
-        \n  •  **Function : **Menampilan link String Man-Userbot\
+        \n  •  **Function : **Menampilan link String SandBot\
     "
     }
 )
@@ -329,7 +329,7 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "restart": f"**Plugin : **`Restart Man-Userbot`\
+        "restart": f"**Plugin : **`Restart SandBot`\
         \n\n  •  **Syntax :** `{cmd}restart`\
         \n  •  **Function : **Untuk Merestart userbot.\
     "

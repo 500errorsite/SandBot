@@ -1,6 +1,6 @@
-# Copyright (C) 2021 Man-Userbot
+# Copyright (C) 2021 SandBot
 # Created by mrismanaziz
-# FROM <https://github.com/mrismanaziz/Man-Userbot>
+# FROM <https://github.com/mrismanaziz/SandBot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 
 from asyncio.exceptions import TimeoutError

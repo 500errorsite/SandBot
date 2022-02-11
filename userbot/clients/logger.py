@@ -1,8 +1,8 @@
 # Man - UserBot
-# Copyright (c) 2022 Man-Userbot
+# Copyright (c) 2022 SandBot
 # Credits: @mrismanaziz || https://github.com/mrismanaziz
 #
-# This file is a part of < https://github.com/mrismanaziz/Man-Userbot/ >
+# This file is a part of < https://github.com/mrismanaziz/SandBot/ >
 # t.me/SharingUserbot & t.me/Lunatic0de
 
 from telethon.tl.functions.channels import InviteToChannelRequest
@@ -15,7 +15,7 @@ from userbot import MAN2, MAN3, MAN4, MAN5, bot, branch, owner, uid
 
 mention = f"[{owner}](tg://user?id={uid})"
 MSG_ON = """
-🔥 **Man-Userbot Berhasil Di Aktifkan**
+🔥 **SandBot Berhasil Di Aktifkan**
 ━━
 ➠ **Userbot Version -** `{}@{}`
 ➠ **Ketik** `{}alive` **untuk Mengecheck Bot**
@@ -30,7 +30,7 @@ async def man_userbot_on():
             if BOTLOG_CHATID != 0:
                 await bot.send_message(
                     BOTLOG_CHATID,
-                    f"🔥 **Man-Userbot Berhasil Di Aktifkan**\n━━\n➠ **Userbot Version -** `{version}@{branch}`\n➠ **Ketik** `{cmd}alive` **untuk Mengecheck Bot**\n━━",
+                    f"🔥 **SandBot Berhasil Di Aktifkan**\n━━\n➠ **Userbot Version -** `{version}@{branch}`\n➠ **Ketik** `{cmd}alive` **untuk Mengecheck Bot**\n━━",
                 )
     except Exception:
         pass

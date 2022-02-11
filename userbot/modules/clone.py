@@ -1,6 +1,6 @@
 # Coded by KenHV
 # Recode by @mrismanaziz
-# FORM Man-Userbot <https://github.com/mrismanaziz/Man-Userbot>
+# FORM SandBot <https://github.com/mrismanaziz/SandBot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 
 from telethon.tl.functions.account import UpdateProfileRequest

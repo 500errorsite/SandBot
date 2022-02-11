@@ -1,7 +1,7 @@
 # Copyright (C) 2020 Adek Maulana.
 # All rights reserved.
 # Recode by @mrismanaziz
-# FROM Man-Userbot <https://github.com/mrismanaziz/Man-Userbot>
+# FROM SandBot <https://github.com/mrismanaziz/SandBot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 """
    Heroku manager for your userbot
@@ -292,7 +292,7 @@ CMD_HELP.update(
     {
         "heroku": f"**Plugin : **`heroku`\
         \n\n  •  **Syntax :** `{cmd}set var <nama var> <value>`\
-        \n  •  **Function : **Tambahkan Variabel Baru Atau Memperbarui Variabel Setelah Menyetel Variabel Man-Userbot Akan Di Restart.\
+        \n  •  **Function : **Tambahkan Variabel Baru Atau Memperbarui Variabel Setelah Menyetel Variabel SandBot Akan Di Restart.\
         \n\n  •  **Syntax :** `{cmd}get var or .get var <nama var>`\
         \n  •  **Function : **Dapatkan Variabel Yang Ada,Harap Gunakan Di Grup Private Anda!\
         \n\n  •  **Syntax :** `{cmd}del var <nama var>`\

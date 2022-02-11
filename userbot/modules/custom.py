@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 # Recode by @mrismanaziz
-# FROM Man-Userbot
+# FROM SandBot
 # t.me/SharingUserbot
 #
 

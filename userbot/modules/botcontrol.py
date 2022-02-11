@@ -1,7 +1,7 @@
 # Copyright (C) 2020 Catuserbot <https://github.com/sandy1709/catuserbot>
 # Copyright (C) 2021 TeamUltroid <https://github.com/TeamUltroid/Ultroid>
 # Recode by @mrismanaziz
-# FROM Man-Userbot <https://github.com/mrismanaziz/Man-Userbot>
+# FROM SandBot <https://github.com/mrismanaziz/SandBot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 
 import io
@@ -900,7 +900,7 @@ async def bot_start(event):
                         \n\n**Saya adalah {my_first}** \
                         \n**Anda dapat menghubungi [{OWNER}](tg://user?id={OWNER_ID}) dari sini.**\
                         \n**Jangan melakukan spam atau anda akan di Banned**\
-                        \n\n**Powered by** [UserBot](https://github.com/mrismanaziz/Man-Userbot)"
+                        \n\n**Powered by** [UserBot](https://github.com/mrismanaziz/SandBot)"
         buttons = [
             (
                 Button.url("ɢʀᴏᴜᴘ", f"https://t.me/{GROUP}"),

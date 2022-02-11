@@ -1,6 +1,6 @@
 # Port by Koala 🐨/@manuskarakitann
 # Recode by @mrismanaziz
-# FROM Man-Userbot <https://github.com/mrismanaziz/Man-Userbot/>
+# FROM SandBot <https://github.com/mrismanaziz/SandBot/>
 # t.me/SharingUserbot & t.me/Lunatic0de
 # Nyenyenye bacot
 

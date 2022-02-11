@@ -6,7 +6,7 @@
 # thanks to the owner of X-tra-Telegram for tts fix
 #
 # Recode by @mrismanaziz
-# FROM Man-Userbot
+# FROM SandBot
 # t.me/SharingUserbot
 #
 """ Userbot module containing various scrapers. """

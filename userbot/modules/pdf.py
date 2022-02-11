@@ -1,6 +1,6 @@
-# Copyright (C) 2021 Man-Userbot
+# Copyright (C) 2021 SandBot
 # Created by mrismanaziz
-# FROM <https://github.com/mrismanaziz/Man-Userbot>
+# FROM <https://github.com/mrismanaziz/SandBot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 
 from asyncio.exceptions import TimeoutError
@@ -30,7 +30,7 @@ async def _(event):
                 cnfrm = await conv.get_response()
                 editfilename = await conv.send_message("Yes")
                 enterfilename = await conv.get_response()
-                filename = await conv.send_message("Man-Userbot")
+                filename = await conv.send_message("SandBot")
                 started = await conv.get_response()
                 pdf = await conv.get_response()
                 await event.client.send_read_acknowledge(conv.chat_id)

@@ -1,7 +1,7 @@
 # Copyright (C) UsergeTeam 2020
 # Licensed under GPLv3
 # Ported from Userge and refactored by @KenHV
-# FROM Man-Userbot
+# FROM SandBot
 # t.me/SharingUserbot
 
 import os

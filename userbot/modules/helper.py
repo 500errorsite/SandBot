@@ -13,7 +13,7 @@ async def usit(event):
         f"✣ **Group Support :** [Sharing Userbot](t.me/sharinguserbot)\n"
         f"✣ **Channel Man :** [Lunatic0de](t.me/Lunatic0de)\n"
         f"✣ **Owner Repo :** [Risman](t.me/mrismanaziz)\n"
-        f"✣ **Repo :** [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)\n",
+        f"✣ **Repo :** [SandBot](https://github.com/mrismanaziz/SandBot)\n",
     )
 
 
@@ -21,7 +21,7 @@ async def usit(event):
 async def var(event):
     await edit_or_reply(
         event,
-        "**Daftar Lengkap Vars Dari Man-Userbot:** [KLIK DISINI](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)",
+        "**Daftar Lengkap Vars Dari SandBot:** [KLIK DISINI](https://telegra.ph/List-Variabel-Heroku-untuk-SandBot-09-22)",
     )
 
 
@@ -29,13 +29,13 @@ CMD_HELP.update(
     {
         "helper": f"**Plugin : **`helper`\
         \n\n  •  **Syntax :** `{cmd}ihelp`\
-        \n  •  **Function : **Bantuan Untuk Man-Userbot.\
+        \n  •  **Function : **Bantuan Untuk SandBot.\
         \n\n  •  **Syntax :** `{cmd}listvar`\
         \n  •  **Function : **Melihat Daftar Vars.\
         \n\n  •  **Syntax :** `{cmd}repo`\
-        \n  •  **Function : **Melihat Repository Man-Userbot.\
+        \n  •  **Function : **Melihat Repository SandBot.\
         \n\n  •  **Syntax :** `{cmd}string`\
-        \n  •  **Function : **Link untuk mengambil String Man-Userbot.\
+        \n  •  **Function : **Link untuk mengambil String SandBot.\
     "
     }
 )

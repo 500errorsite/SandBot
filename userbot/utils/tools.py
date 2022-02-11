@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 # Recode by @mrismanaziz
-# FROM Man-Userbot <https://github.com/mrismanaziz/Man-Userbot>
+# FROM SandBot <https://github.com/mrismanaziz/SandBot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 #
 
@@ -315,8 +315,8 @@ async def bash(cmd):
 
 def post_to_telegraph(title, html_format_content):
     post_client = TelegraphPoster(use_api=True)
-    auth_name = "Man-Userbot"
-    auth_url = "https://github.com/mrismanaziz/Man-Userbot"
+    auth_name = "SandBot"
+    auth_url = "https://github.com/mrismanaziz/SandBot"
     post_client.create_api_token(auth_name)
     post_page = post_client.post(
         title=title,

@@ -157,7 +157,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/mrismanaziz/Man-Userbot.git"
+    "UPSTREAM_REPO_URL", "https://github.com/mrismanaziz/SandBot.git"
 )
 
 # Custom Name Sticker Pack
@@ -552,7 +552,7 @@ with bot:
                 result = builder.photo(
                     file=logoman,
                     link_preview=False,
-                    text=f"**✗ Man-Userbot Inline Menu ✗**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules",
+                    text=f"**✗ SandBot Inline Menu ✗**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
@@ -561,12 +561,12 @@ with bot:
                     description="Repository Man - Userbot",
                     url="https://t.me/SharingUserbot",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
-                    text="**Man - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Risman](https://t.me/mrismanaziz)\n✣ **Support :** @Lunatic0de\n✣ **Repository :** [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Man - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Risman](https://t.me/mrismanaziz)\n✣ **Support :** @Lunatic0de\n✣ **Repository :** [SandBot](https://github.com/mrismanaziz/SandBot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/SharingUserbot"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/mrismanaziz/Man-Userbot"
+                                "ʀᴇᴘᴏ", "https://github.com/mrismanaziz/SandBot"
                             ),
                         ],
                     ],
@@ -606,7 +606,7 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✗ Man-Userbot ✗",
+                    title="✗ SandBot ✗",
                     description="Man - UserBot | Telethon",
                     url="https://t.me/SharingUserbot",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
@@ -615,7 +615,7 @@ with bot:
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/SharingUserbot"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/mrismanaziz/Man-Userbot"
+                                "ʀᴇᴘᴏ", "https://github.com/mrismanaziz/SandBot"
                             ),
                         ],
                     ],
@@ -630,7 +630,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 current_page_number = int(looters)
                 buttons = paginate_help(current_page_number, dugmeler, "helpme")
-                text = f"**✗ Man-Userbot Inline Menu ✗**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules"
+                text = f"**✗ SandBot Inline Menu ✗**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules"
                 await event.edit(
                     text,
                     file=logoman,

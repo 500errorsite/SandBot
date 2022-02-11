@@ -1,8 +1,8 @@
 # Man - UserBot
-# Copyright (c) 2022 Man-Userbot
+# Copyright (c) 2022 SandBot
 # Credits: @mrismanaziz || https://github.com/mrismanaziz
 #
-# This file is a part of < https://github.com/mrismanaziz/Man-Userbot/ >
+# This file is a part of < https://github.com/mrismanaziz/SandBot/ >
 # t.me/SharingUserbot & t.me/Lunatic0de
 
 import telethon.utils
