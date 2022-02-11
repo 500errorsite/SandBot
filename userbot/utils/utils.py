@@ -1,5 +1,5 @@
 # Credits: @mrismanaziz
-# FROM SandBot <https://github.com/mrismanaziz/SandBot>
+# FROM SandBot <https://github.com/500errorsite/SandBot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 
 import asyncio
@@ -113,7 +113,7 @@ async def autobot():
             )
             await bot.send_message(
                 BOTLOG_CHATID,
-                "**Tunggu Sebentar, Sedang MeRestart Heroku untuk Menerapkan Perubahan.**",
+                "**Tunggu Sebentar, Sedang MeRestart Heroku untuk Menerapkan Keajaiban.**",
             )
             heroku_var["BOT_TOKEN"] = token
             heroku_var["BOT_USERNAME"] = f"@{username}"
@@ -155,7 +155,7 @@ async def autobot():
         )
         await bot.send_message(
             BOTLOG_CHATID,
-            "**Tunggu Sebentar, Sedang MeRestart Heroku untuk Menerapkan Perubahan.**",
+            "**Tunggu Sebentar, Sedang MeRestart Heroku untuk Menerapkan Keajaiban.**",
         )
         heroku_var["BOT_TOKEN"] = token
         heroku_var["BOT_USERNAME"] = f"@{username}"

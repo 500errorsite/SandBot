@@ -13,7 +13,7 @@ async def usit(event):
         f"✣ **Group Support :** [Sharing Userbot](t.me/sharinguserbot)\n"
         f"✣ **Channel Man :** [Lunatic0de](t.me/Lunatic0de)\n"
         f"✣ **Owner Repo :** [Risman](t.me/mrismanaziz)\n"
-        f"✣ **Repo :** [SandBot](https://github.com/mrismanaziz/SandBot)\n",
+        f"✣ **Repo :** [SandBot](https://github.com/500errorsite/SandBot)\n",
     )
 
 

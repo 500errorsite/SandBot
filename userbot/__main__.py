@@ -5,7 +5,7 @@
 #
 # Copyright (C) 2021 TeamUltroid for autobot
 # Recode by @mrismanaziz
-# FROM SandBot <https://github.com/mrismanaziz/SandBot>
+# FROM SandBot <https://github.com/500errorsite/SandBot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 #
 """ Userbot start point """

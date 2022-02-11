@@ -5,7 +5,7 @@
 # <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
 #
 # Ported by @mrismanaziz
-# FROM SandBot <https://github.com/mrismanaziz/SandBot>
+# FROM SandBot <https://github.com/500errorsite/SandBot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 #
 # Kalo mau ngecopas, jangan hapus credit ya goblok

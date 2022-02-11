@@ -1,6 +1,6 @@
 # Copyright (C) 2020 Catuserbot <https://github.com/sandy1709/catuserbot>
 # Ported by @mrismanaziz
-# FROM SandBot <https://github.com/mrismanaziz/SandBot>
+# FROM SandBot <https://github.com/500errorsite/SandBot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 #
 

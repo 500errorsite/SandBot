@@ -6,7 +6,7 @@
 # You can find misc modules, which dont fit in anything xD
 #
 # Recode by @mrismanaziz
-# FROM SandBot <https://github.com/mrismanaziz/SandBot>
+# FROM SandBot <https://github.com/500errorsite/SandBot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 #
 
@@ -93,7 +93,7 @@ async def reedme(event):
     await edit_or_reply(
         event,
         "**Berikut sesuatu untuk kamu baca:**\n"
-        "\n✣ [Userbot Repo](https://github.com/mrismanaziz/SandBot/blob/SandBot/README.md)"
+        "\n✣ [Userbot Repo](https://github.com/500errorsite/SandBot/blob/SandBot/README.md)"
         "\n✣ [Video Tutorial](https://youtu.be/tTDaPKsGC1I)"
         "\n✣ [List Variabel Heroku untuk SandBot](https://telegra.ph/List-Variabel-Heroku-untuk-SandBot-09-22)"
         "\n✣ [Setup Guide - Basic](https://mrismanaziz.medium.com/cara-memasang-userbot-telegram-repo-man-userbot-deploy-di-heroku-c56d1f8b5537)"
@@ -125,7 +125,7 @@ async def repo_is_here(event):
         f"✣ **Group Support :** [Sharing Userbot](t.me/sharinguserbot)\n"
         f"✣ **Channel Man :** [Lunatic0de](t.me/Lunatic0de)\n"
         f"✣ **Owner Repo :** [Risman](t.me/mrismanaziz)\n"
-        f"✣ **Repo :** [SandBot](https://github.com/mrismanaziz/SandBot)\n"
+        f"✣ **Repo :** [SandBot](https://github.com/500errorsite/SandBot)\n"
     )
 
 

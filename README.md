@@ -39,7 +39,7 @@ Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang sa
 
 ### Tutorial Deploy di VPS
 
--  `git clone https://github.com/mrismanaziz/SandBot`
+-  `git clone https://github.com/500errorsite/SandBot`
 -  `cd SandBot`
 -  `pip3 install -r requirements.txt`
 -  `mv sample_config.env config.env`
@@ -56,21 +56,21 @@ Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang sa
 
 Follow Channel [@Lunatic0de](https://t.me/Lunatic0de) untuk info Update bot dan Gabung Group [@SharingUserbot](https://t.me/SharingUserbot) untuk untuk diskusi, pelaporan bug, dan bantuan tentang SandBot.
 
-#### Special Thanks To [Everyone](https://github.com/mrismanaziz/SandBot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
+#### Special Thanks To [Everyone](https://github.com/500errorsite/SandBot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
 -  [RaphielGang](https://github.com/RaphielGang) : Paperplane
 -  [TeamUltroid](https://github.com/TeamUltroid/Ultroid) :  UltroidUserbot
 -  [BianSepang](https://github.com/BianSepang/WeebProject) : WeebProject
 -  [Sandy1709](https://github.com/sandy1709/catuserbot) : CatUserbot
 -  [X_ImFine](https://github.com/ximfine) :  XBot-REMIX
--  [Risman](https://github.com/mrismanaziz/SandBot) :  SandBot
+-  [Risman](https://github.com/500errorsite/SandBot) :  SandBot
 -  [Koala](https://github.com/ManusiaRakitan/Kampang-Bot) : Kampang-Bot
 -  [Alvin](https://github.com/Zora24/Lord-Userbot) : Lord-Userbot
 
 ## © Credits
 -  [Laky-64](https://github.com/Laky-64) for [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
 -  [Lonami](https://github.com/LonamiWebs/) for [Telethon](https://github.com/LonamiWebs/Telethon)
--  [Risman](https://github.com/mrismanaziz) for [SandBot](https://github.com/mrismanaziz/SandBot)
+-  [Risman](https://github.com/500errorsite) for [SandBot](https://github.com/500errorsite/SandBot)
 
 ## License
-Licensed under [Raphielscape Public License](https://github.com/mrismanaziz/SandBot/blob/SandBot/LICENSE) - Version 1.d, February 2020
+Licensed under [Raphielscape Public License](https://github.com/500errorsite/SandBot/blob/SandBot/LICENSE) - Version 1.d, February 2020

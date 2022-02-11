@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 # Recode by @mrismanaziz
-# FROM SandBot <https://github.com/mrismanaziz/SandBot>
+# FROM SandBot <https://github.com/500errorsite/SandBot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 
 import asyncio

@@ -1,8 +1,8 @@
 # Man - UserBot
 # Copyright (c) 2022 SandBot
-# Credits: @mrismanaziz || https://github.com/mrismanaziz
+# Credits: @mrismanaziz || https://github.com/500errorsite
 #
-# This file is a part of < https://github.com/mrismanaziz/SandBot/ >
+# This file is a part of < https://github.com/500errorsite/SandBot/ >
 # t.me/SharingUserbot & t.me/Lunatic0de
 
 import sys
@@ -29,8 +29,8 @@ from userbot import (
 )
 from userbot.modules.gcast import GCAST_BLACKLIST as GBL
 
-EOL = "EOL\nMan-UserBot v{}, Copyright © 2021-2022 ʀɪsᴍᴀɴ• <https://github.com/mrismanaziz>"
-MSG_BLACKLIST = "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOT {} GUA MATIIN NAJIS BANGET DIPAKE JAMET KEK LU.\nMan-UserBot v{}, Copyright © 2021-2022 ʀɪsᴍᴀɴ• <https://github.com/mrismanaziz>"
+EOL = "EOL\nMan-UserBot v{}, Copyright © 2021-2022 SandBoxBot• <https://github.com/500errorsite>"
+MSG_BLACKLIST = "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOT {} GUA MATIIN NAJIS BANGET DIPAKE JAMET KEK LU.\nMan-UserBot v{}, Copyright © 2021-2022 SandBoxBot• <https://github.com/500errorsite>"
 
 
 async def man_client(client):

@@ -1,6 +1,6 @@
 # Copyright (c) 2021 SandBot
 # Created by mrismanaziz
-# FROM <https://github.com/mrismanaziz/SandBot>
+# FROM <https://github.com/500errorsite/SandBot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 #
 # Thanks To Ultroid <https://github.com/TeamUltroid/Ultroid>

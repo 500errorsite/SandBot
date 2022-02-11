@@ -1,5 +1,5 @@
 # Copyright (C) 2021 @mrismanaziz
-# FROM SandBot <https://github.com/mrismanaziz/SandBot>
+# FROM SandBot <https://github.com/500errorsite/SandBot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError

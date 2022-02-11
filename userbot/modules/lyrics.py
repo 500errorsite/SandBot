@@ -1,6 +1,6 @@
 # Credits: @mrismanaziz
 # API by @tofik_dn || https://github.com/tofikdn
-# FROM SandBot <https://github.com/mrismanaziz/SandBot>
+# FROM SandBot <https://github.com/500errorsite/SandBot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 
 import requests

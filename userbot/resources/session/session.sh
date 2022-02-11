@@ -2,7 +2,7 @@
 # Ultroid - UserBot
 # Copyright (C) 2022 SandBot
 #
-# This file is a part of < https://github.com/mrismanaziz/SandBot/ >
+# This file is a part of < https://github.com/500errorsite/SandBot/ >
 # PLease read the GNU Affero General Public License in <https://www.github.com/mrismanaziz/SandBot/blob/main/LICENSE/>
 
 clear
